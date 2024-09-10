@@ -90,13 +90,13 @@ function playGame(){
         playRound(humanSelection, computerSelection);
     }
     if (humanScore === computerScore){
-        alert("It's a tie!")
+        alert("Best out of 5 - It's a tie!")
         console.log("Best out of 5 - it's a tie!");
     } else if (humanScore > computerScore){
-        alert("You win best out of 5!")
+        alert("Best out of 5 - You win!")
         console.log("You win best out of 5!");
     } else if (humanScore < computerScore){
-        alert("You lose best out of 5")
+        alert("Best out of 5 - You lose :-(")
         console.log("You lose best out of 5");
     }
 }
